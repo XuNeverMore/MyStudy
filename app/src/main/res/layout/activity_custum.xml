@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_custum"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xct.nevermore.myapplication.CustumActivity">
+    <include layout="@layout/top_bar_01"/>
+    <TextView
+        android:id="@+id/tv_01"
+        android:background="#5cc7d1"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textSize="20sp"
+        android:text="我有一头小毛驴"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_02"
+        android:padding="5dp"
+        android:text="我从来也不骑"
+        android:gravity="center"
+        android:textColor="#080d13"
+        android:textSize="20sp"
+        android:background="#ef932b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        style="@style/LargerTextStyle"
+        android:text="显示"
+        android:background="#94ed91"
+        android:id="@+id/btn_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="5dp"
+        style="@style/LargerTextStyle"
+        android:text="隐藏"
+        android:background="#94ed91"
+        android:id="@+id/btn_gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

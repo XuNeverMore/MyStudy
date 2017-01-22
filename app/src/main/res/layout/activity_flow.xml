@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_flow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xct.nevermore.myapplication.FlowActivity">
+    <include layout="@layout/top_bar_01"/>
+    <com.xct.nevermore.myapplication.ui.FlowTagLayout
+        android:background="#f28a8a"
+        android:id="@+id/ft1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.xct.nevermore.myapplication.ui.FlowTagLayout>
+    <com.xct.nevermore.myapplication.ui.FlowTagLayout
+        android:id="@+id/ft2"
+        android:background="#51e2f2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.xct.nevermore.myapplication.ui.FlowTagLayout>
+</LinearLayout>
