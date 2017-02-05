@@ -10,6 +10,8 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.xct.nevermore.myapplication.ui.SlideBackLayout;
+
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -33,6 +35,8 @@ public class KeyActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_key);
+        SlideBackLayout slideBackLayout = new SlideBackLayout(this);
+        slideBackLayout.bind();
         ButterKnife.bind(this);
 
         edit.addTextChangedListener(new TextWatcher() {

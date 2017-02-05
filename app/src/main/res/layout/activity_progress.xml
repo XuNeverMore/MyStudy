@@ -32,14 +32,16 @@
         android:layout_height="wrap_content"
         android:background="#8b8689"
         android:padding="25dp"
-        android:progressDrawable="@drawable/white_ring" />
+        android:progressDrawable="@drawable/white_ring"
+        android:id="@+id/progressBar2" />
 
     <ProgressBar
         android:indeterminateDrawable="@drawable/pr_b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#8b8689"
-        android:padding="25dp" />
+        android:padding="25dp"
+        android:id="@+id/progressBar" />
 
     <ProgressBar
         android:layout_width="wrap_content"

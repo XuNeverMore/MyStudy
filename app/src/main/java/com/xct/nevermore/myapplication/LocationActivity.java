@@ -10,6 +10,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.xct.nevermore.myapplication.baseinterface.OnGetString;
+import com.xct.nevermore.myapplication.ui.SlideLayout;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -35,6 +36,7 @@ public class LocationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_location);
         ButterKnife.bind(this);
+        new SlideLayout(this).bindActivity(this);
     }
 
     @OnClick({R.id.iv_back, R.id.btn_get_locaton})

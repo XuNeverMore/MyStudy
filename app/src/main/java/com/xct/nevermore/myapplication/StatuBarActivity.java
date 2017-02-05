@@ -1,12 +1,15 @@
 package com.xct.nevermore.myapplication;
 
+import android.app.Activity;
 import android.graphics.Color;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class StatuBarActivity extends AppCompatActivity {
+import com.xct.nevermore.myapplication.ui.SlideBackLayout;
+
+public class StatuBarActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +22,8 @@ public class StatuBarActivity extends AppCompatActivity {
             decorView.setSystemUiVisibility(opton);
             getWindow().setStatusBarColor(Color.TRANSPARENT);
         }
+        SlideBackLayout slideBackLayout = new SlideBackLayout(this);
+        slideBackLayout.bind();
 
 
     }

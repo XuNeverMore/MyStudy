@@ -8,6 +8,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme1" parent="@style/Theme.AppCompat.Light">
+
+    </style>
 
 
     <style name="AnimationPop" parent="android:Animation">

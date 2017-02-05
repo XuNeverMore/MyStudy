@@ -39,7 +39,7 @@ public class MainActivity extends BaseActivity {
         StatusBarUtil.setTranslucent(this);
     }
 
-    @OnClick({R.id.btn_key,R.id.btn_swipe_list_view1,R.id.btn_swipe_list_view,R.id.btn_scroll_back,R.id.btn_custom,R.id.btn_statu_bar,R.id.btn_flow,R.id.btn_progress_bar,R.id.btn_location, R.id.btn_lv, R.id.btn_calendar, R.id.btn_pager, R.id.activity_main})
+    @OnClick({R.id.btn_card,R.id.btn_key,R.id.btn_swipe_list_view1,R.id.btn_swipe_list_view,R.id.btn_scroll_back,R.id.btn_custom,R.id.btn_statu_bar,R.id.btn_flow,R.id.btn_progress_bar,R.id.btn_location, R.id.btn_lv, R.id.btn_calendar, R.id.btn_pager, R.id.activity_main})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_calendar:
@@ -80,6 +80,9 @@ public class MainActivity extends BaseActivity {
                 break;
             case R.id.btn_key:
                 gotoActivity(KeyActivity.class);
+                break;
+            case R.id.btn_card:
+                gotoActivity(CardActivity.class);
                 break;
         }
     }

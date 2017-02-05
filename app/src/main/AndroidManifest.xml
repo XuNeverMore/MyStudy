@@ -61,14 +61,18 @@
         <activity android:name=".LocationActivity" />
         <activity android:name=".ProgressActivity" />
         <activity android:name=".FlowActivity" />
-        <activity android:name=".StatuBarActivity" />
+        <activity
+            android:name=".StatuBarActivity"
+            android:theme="@android:style/Theme.Translucent" />
         <activity android:name=".CustumActivity" />
         <activity android:name=".ScrollActivity" />
         <activity android:name=".SwipListViewActivity" />
         <activity android:name="com.github.lzyzsd.swipelayoutexample.MainActivity" />
         <activity android:name=".SLActivity" />
-        <activity android:name=".KeyActivity"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity
+            android:name=".KeyActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity android:name=".CardActivity"></activity>
     </application>
 
 </manifest>
